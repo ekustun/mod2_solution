@@ -1,0 +1,130 @@
+
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+
+	margin-top: 60px;
+	text-align: center;
+	font-family: "Lucida Console", Courier, monospace, "Times New Roman", Times, serif;
+	color: black;
+	position: relative;
+
+}
+
+.row{
+
+	padding: 20px;
+	width: 100%;
+	position: relative;
+
+
+
+}
+
+h2{
+
+	float: right;
+	text-align: center;
+	width: 138px;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black; 
+	font-family: "Lucida Console", Courier, monospace, "Times New Roman", Times, serif;
+	
+}
+#title1{
+	background-color: #d59898;
+}
+#title2{
+	background-color: #c14543;
+	color:white;
+}
+#title3{
+	background-color: #e5d198;
+}
+
+.section{
+	position: relative;
+}
+
+
+.dummy_text{
+	padding: 10px;
+	padding-top: 50px;	
+	font-family: "Lucida Console", Courier, monospace, "Times New Roman", Times, serif;
+	
+}
+
+.box1, .box2, .box3{
+	overflow: auto;
+	position: relative;
+	background-color: #999999; 
+	margin: 10px;
+	
+
+}
+
+
+
+
+/* Desktop Mode */
+@media(min-width: 992px){
+
+	.box1, .box2, .box3{
+		float: left;
+		border: 2px solid black;
+		position: relative;
+		width: 300px;
+		margin:10px;
+
+	}
+	.box1{
+		width: 33.33%;
+	}
+	.box2{
+		width: 33.33%;
+	}
+	.box3{
+		width:33.33%;
+	}
+}
+
+/* Tablet Mode */
+@media(min-width: 768px) and (max-width: 991px){
+	.box1, .box2, .box3{
+		border: 2px solid black;
+		float: left;
+	}
+	.box1{
+		width: 50%;
+	}
+	.box2{
+		width:50%;
+	}
+	.box3{
+		width:100%;
+	}
+
+}
+
+/* Mobile Mode */
+@media(max-width: 767px){
+
+	.box1, .box2, .box3{
+		float: left;
+		border: 2px solid black;
+	}
+	.box1{
+		width: 100%;
+	}
+	.box2{
+		width: 100%;
+	}
+	.box3{
+		width:100%;
+	}
+}
