@@ -62,7 +62,7 @@ h2{
 
 /* Desktop Mode */
 @media(min-width: 992px){
-	.col-lg-1{
+	.col-lg-4{
 		position: relative;
 		width: 33.33%;
 		float: left;
@@ -73,11 +73,11 @@ h2{
 
 /* Tablet Mode */
 @media(min-width: 768px) and (max-width: 991px){
-	.col-md-1{
+	.col-md-6{
 		width:50%;
 		float: left;
 	}
-	.col-md-2{
+	.col-md-12{
 		width:100%;
 		float: left;
 	}
@@ -85,7 +85,7 @@ h2{
 
 /* Mobile Mode */
 @media(max-width: 767px){
-	.col-xs-1{
+	.col-xs-12{
 		width: 100%;
 		float: left;
 	}
