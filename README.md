@@ -1,6 +1,7 @@
 # mod2_solution
 Module 2 - Solution- Coursera
 
+https://ekustun.github.io/mod2_solution/
 
 # Module 2 Coding Assignment
 
